@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 15px 0.3px black ;
+    display: flex; align-items: center; justify-content: space-around;
+gap: 800px;
+position: fixed;
+z-index: 2;
+
+}
+.nav__logo{
+    display: flex;
+    align-items: center;
+gap: 10px;
+}
+.nav__elements{
+    display: flex;
+    align-items: center;
+gap: 40px;
+
+}
+.Mainn{
+    width: 100%;
+    height: 905px;
+    background: url(./img/architect.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center;
+
+}
+.header__elements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 250px;
+}
+.MainnSide{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.allone img , .alltwo img {
+    width: 350px;
+    height: 300px;
+}
+.allone{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.alltwo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.bannner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mainSection{
+    width: 100%;
+    height: 700px;
+
+}
+.rowwsec img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.columnnsec{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rowwsecc div{
+    width: 350px;
+    height: 250px;
+}
+.rowwsecc , .rowwsec{
+    display: flex;
+    gap: 20px;
+}
+.columnnsec{
+    position: relative; left: 120px;
+}
+.contactsection{
+    width: 100%;
+    height: 400px;
+}
+form input{
+    padding: 10px;
+    border: 1px solid gray;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    position: relative; left: 120px;
+}
+.lastt{
+    width: 100%;
+    height: 800px;
+    position: relative; bottom: 20px;
+    background: url(./img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lastpart{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
